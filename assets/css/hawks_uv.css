@@ -1,17 +1,15 @@
 body {
-    background-image: url(../img/HawksUV-LogoPattern.png);
-    background-size: 25%;
-    /* background: radial-gradient(blue, red); */
+    background-image: url(../img/HawksUV-LogoPatternSmall.png);
+    background-size: 15%;
+    background-repeat: repeat; /* ensures the pattern tiles */
+    animation: pan 180s linear infinite;
 }
 
 @keyframes pan {
-
-0% {
-    transform: 0% 0%;
-}
-
-100%{
-    transform: 100% 0%;
-}
-
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
 }
