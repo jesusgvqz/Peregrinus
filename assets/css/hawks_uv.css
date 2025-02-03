@@ -1,0 +1,17 @@
+body {
+    background-image: url(../img/HawksUV-LogoPattern.png);
+    background-size: 25%;
+    /* background: radial-gradient(blue, red); */
+}
+
+@keyframes pan {
+
+0% {
+    transform: 0% 0%;
+}
+
+100%{
+    transform: 100% 0%;
+}
+
+}
